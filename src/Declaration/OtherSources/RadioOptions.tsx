@@ -1,0 +1,1 @@
+export const RadioOptions = ["Astra Zenecca", "Pfizer", "Moderna", "Sinopharm"]

@@ -1,0 +1,1 @@
+export const CheckboxesOptions = ["Fiber", "Fever" , "Sore throat", "Difficulty of breathing"]
