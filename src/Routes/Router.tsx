@@ -1,12 +1,10 @@
-import React from "react";
 import { Navigate, Route, Routes } from 'react-router'
 import Table from "../Table";
 import Declaration from "../Declaration";
 import Test from "../Test";
 
-type Props = {};
 
-const Router = (props: Props) => {
+const Router = () => {
   return (
     <>
       <Routes>

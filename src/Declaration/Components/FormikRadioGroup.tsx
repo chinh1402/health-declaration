@@ -1,4 +1,3 @@
-import React from "react";
 import FormikRadio from "./FormikRadio";
 import { useFormikContext } from "formik";
 

@@ -1,5 +1,4 @@
 import { ErrorMessage, Field, useFormikContext } from "formik";
-import React from "react";
 type FormikTextInputTypes = {
   className: string;
   name: string;

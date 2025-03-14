@@ -1,4 +1,3 @@
-import React from "react";
 import { Formik, Field, Form } from "formik";
 import FormikInput from "./Components/FormikInput";
 import * as Yup from "yup";
@@ -16,7 +15,7 @@ import { ObjectData } from "./SelectSource/ObjectData";
 import { CountriesData } from "./SelectSource/CountriesData";
 import { assignIdToObject } from "../Helpers/GenerateRandomId";
 import { AllFormIdFunc } from "./OtherSources/ExistingIdsArray";
-import { useNavigate, useParams, Navigate, Link } from "react-router";
+import { useNavigate, useParams, Navigate } from "react-router";
 
 const validationSchema = Yup.object().shape({
   fullName: Yup.string().required("Full name is required"),
@@ -75,9 +74,6 @@ const Declaration = () => {
     );
   }
 
-  const handleReset = () => {
-    
-  }
 
   return (
     <>

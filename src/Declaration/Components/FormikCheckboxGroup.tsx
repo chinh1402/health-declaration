@@ -1,4 +1,3 @@
-import React from "react";
 import FormikCheckbox from "./FormikCheckbox";
 import { useFormikContext } from "formik";
 

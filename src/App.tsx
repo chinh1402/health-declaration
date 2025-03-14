@@ -1,9 +1,7 @@
-import React from 'react'
-import Router from './routes/Router'
+import Router from './Routes/Router'
 
-type Props = {}
 
-const App = (props: Props) => {
+const App = () => {
   return (
     <>
         <Router />
