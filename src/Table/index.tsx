@@ -41,7 +41,7 @@ const Table = () => {
   }, [searchQuery]);
   return (
     <>
-      <header className="container-fluid">
+      <header className="container-fluid" style={{ padding: "0" }}>
         <div className="container">
           <div className="pt-5 mb-4 row">
             <div className="col-lg-12">
@@ -51,7 +51,7 @@ const Table = () => {
             </div>
           </div>
           <div className="mb-4 row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 p-0">
               <form>
                 <input
                   type="text"
@@ -71,7 +71,7 @@ const Table = () => {
             </div>
           </div>
           <div className="mb-4 row">
-            <div className="col-lg-12">
+            <div className="col-lg-12" style={{ padding: "0", overflow: "auto" }}>
               <table className="table table-md table-bordered table-hover">
                 <thead>
                   <tr className="table-success w-100">
@@ -162,7 +162,7 @@ const Table = () => {
 
           <div className="row">
             <div className="col-lg-12">
-              <div className="d-flex justify-content-center align-items-center gap-3">
+              <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3">
                 <PageNavigation
                   pagination={pagination}
                   setPagination={setPagination}
